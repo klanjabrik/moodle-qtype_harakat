@@ -2,7 +2,7 @@
 
 Harakat is a Moodle question type plugin to train students' ability to give vowels/tasykil in sentences in Arabic.
 
-![Demo](harakat_demo.webm)
+[harakat_demo.webm](https://user-images.githubusercontent.com/403877/215491538-3913e074-8a7f-4fb7-a9ed-a7e85c1f0cf1.webm)
 
 ## Installation
 
