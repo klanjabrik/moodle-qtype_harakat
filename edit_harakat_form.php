@@ -119,11 +119,12 @@ class qtype_harakat_edit_form extends question_edit_form {
      * @return object $question the modified data.
      */
     protected function data_preprocessing($question) {
-
-        // Cleanup the answer from non-arabic script and diacritics.
-        $answer = reset($question->options->answers);
-        $cleanupanswer = preg_replace('/[^\x{0600}-\x{06FF} !@#$%^&*()]/u', '', $answer->answer);
-        $answer->answer = $cleanupanswer;
+        if (isset($question->options)) {
+            // Cleanup the answer from non-arabic script and diacritics.
+            $answer = reset($question->options->answers);
+            $cleanupanswer = preg_replace('/[^\x{0600}-\x{06FF} !@#$%^&*()]/u', '', $answer->answer);
+            $answer->answer = $cleanupanswer;
+        }
 
         $question = parent::data_preprocessing($question);
         $question = $this->data_preprocessing_answers($question);
