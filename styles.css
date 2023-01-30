@@ -1,0 +1,91 @@
+.que.harakat .harakat_wrong {
+    color: red;
+}
+
+.que.harakat .harakat_correct {
+    color: green;
+}
+
+.que.harakat span.harakat_yes {
+    color: #001a1e;
+    cursor: pointer;
+}
+
+.que.harakat span.harakat_yes:hover {
+    color: green;
+}
+
+.que.harakat span.harakat_no {
+    color: grey;
+}
+
+.que.harakat div.qtype_harakat_options {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #f9f9f9;
+    border: 1px solid #333;
+    display: none;
+    text-align: right;
+    padding: 20px 10px;
+    font-size: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    white-space: nowrap;
+}
+
+.que.harakat span.option_letter {
+    color: #001a1e;
+    padding: 0 3px;
+    cursor: pointer;
+}
+
+.que.harakat span.option_letter:hover {
+    color: green;
+}
+
+/* Editing form. */
+body#page-question-type-harakat div[id^=fgroup_id_][id*=answeroptions_] {
+    background: #eee;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: 1px solid #bbb;
+    border-bottom: 0;
+}
+
+body#page-question-type-harakat div[id^=fgroup_id_][id*=answeroptions_] .fgrouplabel label {
+    font-weight: bold;
+}
+
+body#page-question-type-harakat div[id^=fgroup_id_][id*=answeroptions_] label[for^='id_answer_'] {
+    position: absolute;
+    left: -10000px;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+body#page-question-type-harakat div[id^=fitem_id_][id*=fraction_] {
+    background: #eee;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: 1px solid #bbb;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+body#page-question-type-harakat div[id^=fitem_id_][id*=feedback_] {
+    background: #eee;
+    margin-bottom: 2em;
+    margin-top: 0;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: 1px solid #bbb;
+    border-top: 0;
+}
+
+body#page-question-type-harakat div#fitem_id_addanswers {
+    display: none;
+}
