@@ -1,13 +1,15 @@
 # Harakat question type
 
-A harakat question type is a ...
+Harakat is a Moodle question type plugin to train students' ability to give vowels/tasykil in sentences in Arabic.
+
+![Demo](harakat_demo.webm)
 
 ## Installation
 
 ### Installation Using from the Moodle plugins directory
 
 Works as usual starting here
-* https://moodle.org/plugins/harakat
+* https://moodle.org/plugins/harakat (On progress...)
 
 ### Installation Using Git
 
