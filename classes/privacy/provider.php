@@ -18,7 +18,7 @@
  * Privacy Subsystem implementation for qtype_harakat.
  *
  * @package    qtype_harakat
- * @copyright  2023 Meirza <meirza.arson@moodle.com>
+ * @copyright  2023 Meirza <meirza.arson@gmail.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -31,7 +31,7 @@ use core_privacy\local\request\writer;
 /**
  * Privacy Subsystem for qtype_harakat implementing user_preference_provider.
  *
- * @copyright  2023 Meirza <meirza.arson@moodle.com>
+ * @copyright  2023 Meirza <meirza.arson@gmail.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class provider implements

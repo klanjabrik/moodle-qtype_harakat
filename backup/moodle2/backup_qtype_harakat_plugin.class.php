@@ -17,14 +17,14 @@
 /**
  * @package    moodlecore
  * @subpackage backup-moodle2
- * @copyright  2023 Meirza <meirza.arson@moodle.com>
+ * @copyright  2023 Meirza <meirza.arson@gmail.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 /**
  * Provides the information to backup harakat questions
  *
- * @copyright  2023 Meirza <meirza.arson@moodle.com>
+ * @copyright  2023 Meirza <meirza.arson@gmail.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class backup_qtype_harakat_plugin extends backup_qtype_extrafields_plugin {

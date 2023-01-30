@@ -19,7 +19,7 @@
  *
  * @package    qtype
  * @subpackage harakat
- * @copyright  2023 Meirza <meirza.arson@moodle.com>
+ * @copyright  2023 Meirza <meirza.arson@gmail.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

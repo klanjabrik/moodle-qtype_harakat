@@ -17,7 +17,7 @@
 /**
  * @package    moodlecore
  * @subpackage backup-moodle2
- * @copyright  2023 Meirza <meirza.arson@moodle.com>
+ * @copyright  2023 Meirza <meirza.arson@gmail.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -30,7 +30,7 @@ require_once($CFG->dirroot . '/backup/moodle2/restore_qtype_extrafields_plugin.c
  * Restore plugin class that provides the necessary information
  * needed to restore one harakat qtype plugin
  *
- * @copyright  2023 Meirza <meirza.arson@moodle.com>
+ * @copyright  2023 Meirza <meirza.arson@gmail.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class restore_qtype_harakat_plugin extends restore_qtype_extrafields_plugin {

@@ -19,14 +19,14 @@
  *
  * @package    qtype
  * @subpackage harakat
- * @copyright  2023 Meirza <meirza.arson@moodle.com>
+ * @copyright  2023 Meirza <meirza.arson@gmail.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 /**
  * Short answer question editing form definition.
  *
- * @copyright  2023 Meirza <meirza.arson@moodle.com>
+ * @copyright  2023 Meirza <meirza.arson@gmail.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class qtype_harakat_edit_form extends question_edit_form {

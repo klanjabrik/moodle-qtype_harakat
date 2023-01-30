@@ -34,7 +34,7 @@ require_once($CFG->dirroot . '/question/type/harakat/question.php');
 /**
  * The short answer question type.
  *
- * @copyright  2023 Meirza <meirza.arson@moodle.com>
+ * @copyright  2023 Meirza <meirza.arson@gmail.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class qtype_harakat extends question_type {
