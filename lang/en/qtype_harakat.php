@@ -15,15 +15,14 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_harakat', language 'en', branch 'MOODLE_20_STABLE'
+ * Strings for component 'qtype_harakat', language 'en'
  *
  * @package    qtype
  * @subpackage harakat
- * @copyright  1999 onwards Martin Dougiamas  {@link http://moodle.com}
+ * @copyright  2023 Meirza <meirza.arson@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['addmoreanswerblanks'] = 'Blanks for {no} More Answers';
 $string['answer'] = 'Answer: {$a}';
 $string['answers'] = 'Answer:';
 $string['answermustbegiven'] = 'You must enter an answer if there is a grade or feedback.';
