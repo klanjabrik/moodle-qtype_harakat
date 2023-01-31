@@ -142,8 +142,6 @@ define([
 
     /**
      * Binding the answer applying to input name.
-     *
-     * @param {jQuery} e Element to bind the event
      */
     HarakatQuestion.prototype.applyAnswer = function() {
         const question = document.getElementById(this.containerQuestionId);
