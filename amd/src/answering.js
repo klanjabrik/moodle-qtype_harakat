@@ -17,7 +17,7 @@
  * JavaScript to allow dragging options to slots (using mouse down or touch) or tab through slots using keyboard.
  *
  * @module     qtype_harakat/answering
- * @copyright  2023 Meirza
+ * @copyright  2023 Meirza <meirza.arson@gmail.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define([
@@ -44,7 +44,7 @@ define([
     };
 
     /**
-     * Initialise one question.
+     * Initialise Harakat.
      *
      * @method
      * @param {String} inputname the id of the div.que that contains this question.
@@ -68,7 +68,7 @@ define([
     }
 
     /**
-     * Binding the drag/touch event again for newly created element.
+     * Binding the click event for showing options.
      *
      * @param {jQuery} e Element to bind the event
      */
@@ -84,10 +84,10 @@ define([
     };
 
     /**
-         * Binding the drag/touch event again for newly created element.
-         *
-         * @param {jQuery} letterTarget Element to bind the event
-         */
+     * Binding the displayOptions.
+     *
+     * @param {jQuery} letterTarget Element to bind the event
+     */
     HarakatQuestion.prototype.displayOptions = function(letterTarget) {
 
         const thisQ = this;
@@ -126,10 +126,10 @@ define([
     };
 
     /**
-         * Binding the drag/touch event again for newly created element.
-         *
-         * @param {jQuery} e Element to bind the event
-         */
+     * Binding the getCoords.
+     *
+     * @param {jQuery} e Element to bind the event
+     */
     HarakatQuestion.prototype.getCoords = function(e) {
         const rect = e.target.getBoundingClientRect();
         const left = e.clientX - rect.left; //x position within the element.
@@ -140,6 +140,11 @@ define([
         };
     };
 
+    /**
+     * Binding the answer applying to input name.
+     *
+     * @param {jQuery} e Element to bind the event
+     */
     HarakatQuestion.prototype.applyAnswer = function() {
         const question = document.getElementById(this.containerQuestionId);
         const inputname = document.getElementById(this.inputname);
@@ -147,7 +152,7 @@ define([
     };
 
     /**
-     * Singleton object that handles all the DragDropOntoImageQuestions
+     * Singleton object that handles all the HarakatQuestion
      * on the page, and deals with event dispatching.
      * @type {Object}
      */
