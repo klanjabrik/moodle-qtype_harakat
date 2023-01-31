@@ -273,4 +273,13 @@ class qtype_harakat_question extends question_graded_by_strategy
     private function is_harakat(string $str): bool {
         return preg_match($this->unicode, $str);
     }
+
+    public function is_harakat_exist(string $str): bool {
+        foreach (mb_str_split($str) as $s) {
+            if ($this->is_harakat($s)) {
+                return true;
+            }
+        }
+        return false;
+    }
 }

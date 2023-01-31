@@ -63,6 +63,14 @@ class qtype_harakat_renderer extends qtype_renderer {
             $result .= html_writer::tag('div', '', array('class' => 'qtype_harakat_options'));
             $result .= html_writer::tag('div', $htmlquestion, array('id' => $ansinputname, 'class' => 'text-right display-4'));
             $result .= html_writer::start_tag('div', array('class' => 'ablock form-inline'));
+
+            // If there is no harakat, the student has not answered the question.
+            if ($question->is_harakat_exist($htmlquestion)) {
+                $savedanswer = $htmlquestion;
+            } else {
+                $savedanswer = '';
+            }
+
             $result .= html_writer::tag(
                 'input',
                 '',
@@ -70,7 +78,7 @@ class qtype_harakat_renderer extends qtype_renderer {
                     'id' => $inputname,
                     'name' => $inputname,
                     'type' => 'hidden',
-                    'value' => strip_tags($htmlquestion)
+                    'value' => strip_tags($savedanswer) // Remove all HTML inside the current answer.
                     )
                 );
             $result .= html_writer::end_tag('div');
