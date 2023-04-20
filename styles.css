@@ -1,21 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+Arabic&display=swap');
+
+.que.harakat {
+    /* font-family: 'Noto Sans Arabic'; */
+}
+
 .que.harakat .harakat_wrong {
-    color: red;
+    color: #952626;
 }
 
 .que.harakat .harakat_correct {
-    color: green;
+    color: #2D4E0E;
 }
 
 .que.harakat span.harakat_yes {
+    font-family: 'Noto Sans Arabic';
     color: #001a1e;
     cursor: pointer;
 }
 
 .que.harakat span.harakat_yes:hover {
-    color: green;
+    color: #2D4E0E;
 }
 
 .que.harakat span.harakat_no {
+    font-family: 'Noto Sans Arabic';
     color: grey;
 }
 
@@ -34,13 +42,13 @@
 }
 
 .que.harakat span.option_letter {
+    font-family: 'Noto Sans Arabic';
     color: #001a1e;
-    padding: 0 3px;
     cursor: pointer;
 }
 
 .que.harakat span.option_letter:hover {
-    color: green;
+    color: #2D4E0E;
 }
 
 /* Editing form. */

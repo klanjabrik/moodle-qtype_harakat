@@ -104,9 +104,11 @@ define([
             if (i > -1) {
                 var b = a[i].split("::");
                 if (b.length > 1) {
-                    var txt = document.createTextNode(letter + String.fromCharCode(b[0])+String.fromCharCode(b[1]));
+                    var txt = document.createTextNode(
+                        ' ' + letter + String.fromCharCode(b[0]) + String.fromCharCode(b[1]) + ' '
+                    );
                 } else {
-                    var txt = document.createTextNode(letter + String.fromCharCode(a[i]));
+                    var txt = document.createTextNode(' ' + letter + String.fromCharCode(a[i]) + ' ');
                 }
             } else {
                 var txt = document.createTextNode(letter);
@@ -114,7 +116,7 @@ define([
             someSpan.append(txt);
 
             someSpan.addEventListener('click', function(e) {
-                letterTarget.target.innerText = e.target.innerText;
+                letterTarget.target.innerText = e.target.innerText.trim();
                 $('#'+thisQ.containerId+' .qtype_harakat_options').css('display', 'none');
 
                 thisQ.applyAnswer();
