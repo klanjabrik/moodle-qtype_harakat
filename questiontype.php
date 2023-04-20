@@ -39,10 +39,6 @@ require_once($CFG->dirroot . '/question/type/harakat/question.php');
  */
 class qtype_harakat extends question_type {
 
-    public function extra_question_fields() {
-        return array('qtype_harakat_options', 'usecase');
-    }
-
     public function save_question_options($question) {
         global $DB;
         $result = new stdClass();
