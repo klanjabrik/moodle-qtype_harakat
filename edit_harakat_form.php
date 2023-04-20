@@ -45,8 +45,10 @@ class qtype_harakat_edit_form extends question_edit_form {
             &$repeatedoptions, &$answersoption) {
         $repeated = array();
         $answeroptions = array();
-        $answeroptions[] = $mform->createElement('text', 'answer',
-                $label, array('size' => 50));
+        $answeroptions[] = $mform->createElement(
+            'textarea', 'answer', $label,
+            array('cols' => 60, 'rows' => 3, 'class' => 'form-control form-harakat-answer')
+        );
         $answeroptions[] = $mform->createElement('hidden', 'fraction', '1');
         $mform->setType('fraction', PARAM_RAW);
         $repeated[] = $mform->createElement('group', 'answeroptions',

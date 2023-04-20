@@ -97,3 +97,9 @@ body#page-question-type-harakat div[id^=fitem_id_][id*=feedback_] {
 body#page-question-type-harakat div#fitem_id_addanswers {
     display: none;
 }
+
+body#page-question-type-harakat textarea.form-harakat-answer {
+    font-family: 'Noto Sans Arabic';
+    font-size: 30px;
+    direction: rtl;
+}
