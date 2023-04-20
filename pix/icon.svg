@@ -1,1 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" style="isolation:isolate" width="16" height="16" preserveAspectRatio="xMinYMid meet"><defs><clipPath id="a"><path d="M0 0h16v16H0z"/></clipPath></defs><g clip-path="url(#a)"><path d="M16 6V5H0v6h16v-1H1V6h14v4h1V6z"/><path d="M1 6h14v4H1V6z" fill="#FFF"/></g></svg>
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="16.000000pt" height="16.000000pt" viewBox="0 0 16.000000 16.000000"
+ preserveAspectRatio="xMidYMid meet">
+
+<g transform="translate(0.000000,16.000000) scale(0.100000,-0.100000)"
+fill="#000000" stroke="none">
+<path d="M70 150 c-13 -8 -13 -10 2 -10 9 0 20 5 23 10 8 13 -5 13 -25 0z"/>
+<path d="M142 110 c4 -40 -9 -50 -67 -50 -39 0 -54 4 -59 16 -3 9 -4 20 0 25
+3 5 0 9 -5 9 -19 0 -12 -49 8 -60 25 -13 82 -13 115 0 28 10 35 42 15 70 -8
+12 -9 10 -7 -10z"/>
+<path d="M70 10 c0 -5 5 -10 10 -10 6 0 10 5 10 10 0 6 -4 10 -10 10 -5 0 -10
+-4 -10 -10z"/>
+</g>
+</svg>
