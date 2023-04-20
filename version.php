@@ -25,9 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->component = 'qtype_harakat';
 $plugin->version   = 2023012300;
-
 $plugin->requires  = 2023012000;
-
+$plugin->component = 'qtype_harakat';
 $plugin->maturity  = MATURITY_STABLE;
+$plugin->release   = '1.0.1';
